@@ -1,4 +1,4 @@
-# 📊 **Brand Product Sentiment Analysis**
+# 📊 **Product Brand Sentiment Analysis**
 
 ## 📌 **1.0 Overview**
 This project focuses on analyzing Twitter sentiment towards tech brands and products during the SXSW 2011 conference. By leveraging Natural Language Processing (NLP) techniques and machine learning models, we aim to build an automated sentiment classification system. The goal is to help companies gain real-time, data-driven insights into public perception of their products and competitors.
