@@ -3,7 +3,7 @@
 ## 📌 **1.0 Overview**
 This project focuses on analyzing Twitter sentiment towards tech brands and products during the SXSW 2011 conference. By leveraging Natural Language Processing (NLP) techniques and machine learning models, we aim to build an automated sentiment classification system. The goal is to help companies gain real-time, data-driven insights into public perception of their products and competitors.
 
-## **2.0 Business and Data Understanding**
+## 🔍 **2.0 Business and Data Understanding**
 
 ### 🎯 **2.1 Stakeholder Audience**
 The primary stakeholders include marketing teams, product managers, and brand strategists from tech companies. These stakeholders require timely and accurate insights into how their products are perceived online, especially during high-visibility events such as SXSW.
@@ -29,15 +29,17 @@ Key challenges include:
 
 - To explore the distribution of sentiment across different tech brands and products
 
-![Brand Distribution](image-3.png)
+![Brand Distribution](images/sent_dist.png)
 
 - To analyze the relationship between brand category and sentiments
 
-![Sentiment Distribution](image-4.png)
+![iPad Sentiment Distribution](images/image.png)
 
 - To identify which brands/products generate the most positive/negative sentiment
 
-![Sentiment Distribution for Ipad](image-5.png)
+![Most Positive Sentiments](images/pos_sent.png)
+
+![Most Negative Sentiments](images/neg_sent.png)
 
 - To build and evaluate a sentiment classification model that achieves good performance
 
@@ -74,6 +76,6 @@ Key challenges include:
 - Gradient Boosting yielded the best performance overall in terms of F1-score.
 
 ## ✅**5.0 Conclusion**
-This project successfully built a sentiment analysis pipeline that allows tech companies to track and interpret brand sentiment on social media. By focusing on tweets from a major event like SXSW, we were able to identify trends in customer emotion and brand visibility. The deployed model and API endpoint provide a scalable solution for real-time sentiment classification, enabling companies to make timely and informed decisions.
+This project successfully built a sentiment analysis pipeline that allows tech companies to track and interpret brand sentiment on social media. By focusing on tweets from a major event like SXSW, we were able to identify trends in customer emotion and brand visibility. 
 
 
