@@ -84,11 +84,11 @@ Key challenges include:
 
 *Observations:* 
 
-- `Logistic Regression` showed decent performance with the highest recall (0.59), indicating it’s effective at capturing most of the sentiment classes but at the cost of precision.
-- `Random Forest` achieved the highest precision (0.64), meaning it made fewer false-positive sentiment predictions, though its recall was slightly lower.
-- `Gradient Boosting` delivered the most balanced performance with strong F1 Score (0.56), precision (0.62), and recall (0.54), making it the best all-rounder.
-- `Neural Network` maintained consistent scores across all metrics (around 0.55), suggesting reliability but no clear dominance.
-- `XGBoost`, while often strong in other tasks, underperformed slightly across all metrics in this specific case.
+- `Logistic Regression` demonstrated the highest recall (0.59), making it highly effective at capturing a wide range of sentiment classes, particularly important for detecting negative feedback. However, it traded off some precision, which may lead to more false positives.
+- `Random Forest` achieved the highest precision (0.64), meaning its predictions were more often correct when a sentiment was identified. However, its recall (0.52) was slightly lower, suggesting it may miss some relevant sentiment signals.
+- `Gradient Boosting` delivered the most balanced overall performance, with a strong F1 Score (0.56), high precision (0.62), and solid recall (0.54). These metrics make it the most well-rounded and dependable model for general sentiment classification.
+- `Neural Network` maintained consistent performance across all metrics (F1: 0.56, Precision: 0.58, Recall: 0.55), indicating reliability. While it did not outperform others in any single metric, it offers flexibility and scalability for future deep learning improvements.
+- `XGBoost`, despite its usual strengths in structured data problems, underperformed slightly across all metrics in this context, making it less favorable for sentiment analysis in this dataset.
 
 ## ✅ **5.0 Conclusion**
 
